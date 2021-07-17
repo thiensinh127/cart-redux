@@ -1,0 +1,20 @@
+.table td, .table th{
+    vertical-align: middle;
+}
+
+.table{
+    white-space: nowrap;
+    border-left: 1px solid gray;
+    
+}
+@media only screen and (max-width: 541px){
+    .imgCart{
+        width: 40px;
+        height: 40px;
+    }
+  } 
+  @media only screen and (max-width: 768px){
+    .overLoad{
+        overflow-y: scroll;
+    }
+  } 

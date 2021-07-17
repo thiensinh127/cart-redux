@@ -1,0 +1,38 @@
+
+.imgProductItem{
+    transition: all 0.4s;
+}
+.cart:hover .imgProductItem{
+    transform: translateY(-7px);
+    cursor: pointer;
+    box-shadow: 3px 0 20px 1px;;
+}
+.table{
+    box-shadow: 3px 0 20px 1px;
+    margin-top: 60px;
+}
+.nameProduct{
+    color: gray;
+}
+.cart:hover .nameProduct{
+    color: blue;
+}
+.priceProduct{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 541px){
+  .imgProductItem{
+      width: 100px;
+      height: 100px;
+  }
+  .nameProduct{
+      white-space: nowrap;
+      letter-spacing: -2px;
+  }
+  .btn{
+      padding: 3px 5px;
+      margin-right: 5px !important;
+  }
+} 
